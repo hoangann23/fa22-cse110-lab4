@@ -33,7 +33,7 @@
     5.  false because true maps to 1 and does not equal 2
     6.  true because Boolean(2) returns true
 15. The === operator is a strict equality operator, so the two operands must be of the same type in order to be equal. On the other hand, the == operator will perform a type conversion and then check equality
-
+16. 
 17. The modifyArray function will return the array [2, 4, 6] because it takes in the doSomething function as an argument to the callback parameter. The modifyArray function calls the callback function, in this case doSomething, on each item in the array. doSomething takes a number and doubles it. Thus, modifyArray([1, 2, 3], doSomething) doubles each number in the array and returns [2, 4, 6]
-
+18. 
 19. 1 4 3 2
